@@ -22,6 +22,9 @@ The original dataset consists of two csv files:
 The file that needs to be run is bank.py
 
 i)  In Spliting the data section, we split and store the data and labels into seperate csv files for our convenience.
+
 ii) In preprocessing the data section, necessary modifications are made to the data.
+
 iii)In running the SVM classifier section, we first perform feature selection. We use c= 1 and gamma = auto. After cross-validation we can     alter the c and gamma values for accuracy. The precision and recall block is needed only when running for test data.
+
 iv) In cross-validation with grid search section, we have intialised values for C and gamma. This might take some time to execute. This section of the code needs to be commented if you wish to run without cross-validation.
